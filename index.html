@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe</title>
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="theme.css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="fixed-top">
+		<nav class="navbar navbar-expand-lg bg-secondary text-light text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#page-top">Jane Doe</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#apropos	">À propos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Me contacter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--SLIDER-->
+        <section id="slider" class="text-center text-bg-info text-light p-4">
+            <img src="./img/jane-doe.png" class="rounded-circle img-fluid mt-4 mb-4" alt="photo de jane Doe">
+            <h1 class="text-uppercase mb-3" >jane doe</h1>
+            <h2>Développeuse Web full stack</h2>
+        </section>
+
+        <!--PORTFOLIO-->
+        <section id="portfolio" class="text-center p-4">
+            <div class="container">
+                <h2 class="text-uppercase">Mon portfolio</h2>
+                <div class="row ">
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 1</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet1.png" alt="projet 1">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 2</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet2.png" alt="projet 2">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 3</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet3.png" alt="projet 3">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 4</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet4.png" alt="projet 4">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 5</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet5.png" alt="projet 5">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-sm-5 ">
+                        <h3>Projet 6</h3>
+                        <img class="rounded img-fluid" src="./img/portfolio/projet6.png" alt="projet 6">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--A PROPOS-->    
+        <section id="apropos" class="text-center text-bg-info text-light p-4">
+            <div class="container">
+                <h2 class="text-uppercase">a propos</h2>
+                <div class="row">
+                    <article class="col-md-6 ">
+                        <h3>Lorem ipsum</h3>
+                        <p>Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum mariti inops cum 
+                            liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, cum nobilitas florem adultae virginis 
+                            diuturnum absentia pauperis erubesceret patris.
+                        </p>
+                    </article>
+                    <article class="col-md-6">
+                        <h3>Dolor sit amet</h3>
+                        <p>Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, 
+                            quicquid increpuisset, ad salutis suae dispendium existimans factum aut cogitatum, 
+                            insontium caedibus fecit victoriam luctuosam.
+                        </p>
+                    </article>
+                </div>
+                <a class="btn btn-outline-light" href="#"><i class="fa-solid fa-download"></i> Télécharger mon CV</a>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact" class="p-4">
+            <div class="container">
+                <h2 class="text-uppercase text-center">me contacter</h2>
+                <div class="row">
+                    <article class="col-md-4">
+                        <h3>Mes coordonnées</h3>
+                        <address>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                            </svg> 8 rue trousseau 75011 Paris <br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                            </svg> 06 14 90 96 44 <br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                            </svg> jane.doe@gmail.com
+                        </address>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.810858691853!2d5.3722416!3d43.297282499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0b8cee8dd8f%3A0xc78da18ec82c5144!2sMairie%20(Direction%20G%C3%A9n%C3%A9rale%20Services%20%C3%A0%20la%20Population)!5e0!3m2!1sfr!2sfr!4v1711049800999!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <div class="col-md-8">
+                        <h3>Formulaire de contact</h3>
+                        <p>Pour me contacter, merci de remplir le formulaire ci-dessous</p>
+                        <form action="index.html" method="post">
+                            <div class="mb-3">
+                                <label for="nom" class="form-label"> votre nom (*)</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail" class="form-label"> votre email (*)</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="numero" class="form-label"> votre numéro de téléphone (*)</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label"> votre message (*)</label>
+                                <textarea rows="4" cols="58" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info text-light">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="bg-secondary text-light p-2">
+        <p class="text-center m-0" >&copy; MASCLET Clément</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
